@@ -21,12 +21,18 @@ Bu bölümde Arduino/Raspberry Pi ile yapılan elektronik projelerinin Python ko
 - Temel LED yakıp söndürme
 - GPIO kontrolü
 
+#### 4. IAT & ECU Simülasyonu (`iat_ecu.py`)
+- Intake Air Temperature (IAT) sensör simülasyonu
+- ECU enjektör süresi hesaplama
+- Sıcaklık değişikliğine göre yakıt ayarı
+- Otomotiv elektronik sistemi simülasyonu
+
 ### Kullanım
 Her proje için gerekli donanım bağlantıları kod içinde belirtilmiştir.
 
 ### Gereksinimler
 - Python 3.x
-- RPi.GPIO veya Arduino IDE
+- RPi.GPIO veya Arduino IDE (donanım projeleri için)
 - Gerekli sensör ve aktüatörler
 
 ---
